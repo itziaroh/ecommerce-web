@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { CollectionOverviewContainer } from './collection-overview.styles';
 
 import ColletionPreview from '../preview-collection/collection-preview.component';
+
 import { selectCollectionsForPreview } from '../../redux/shop/shop.selectors';
 
 
