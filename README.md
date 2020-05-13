@@ -15,12 +15,12 @@ It consists of an online clothing store where you can find:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Pre-requisitos 📋
+### Prerequisites 📋
 
   After installing this project, you need to have the following tools:
   - [VS Code](https://code.visualstudio.com/download) (or similar).
   - [Node.js](https://nodejs.org/es/download/)
-   - [Git](https://git-scm.com/downloads)
+  - [Git](https://git-scm.com/downloads)
 
 
 ### Installing 🔧
