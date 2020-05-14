@@ -1,8 +1,5 @@
-
-
 # Ecommerce Web
 
-  
 This website has been made following the [Complete React Developer](https://academy.zerotomastery.io/p/complete-react-developer-redux-hooks-graphql-zero-to-mastery) from Zero To Mastery Academy.
 
 It consists of an online clothing store where you can find:
