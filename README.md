@@ -56,6 +56,9 @@ npm start
  * [Axios](https://www.npmjs.com/package/axios)
  * [Stripe API](https://www.npmjs.com/package/react-stripe-checkout)
  * [Styled-components](https://styled-components.com/)
+ * [Context API](https://reactjs.org/docs/context.html) (In context-api branch)
+ * [GraphQL](https://graphql.org/) (In graphql branch)
+ * [Apollo](https://www.apollographql.com/docs/react/) (In graphql branch)
 
 
 ---
