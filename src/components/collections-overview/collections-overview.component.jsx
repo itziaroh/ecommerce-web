@@ -1,19 +1,15 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
 import CollectionPreview from '../collection-preview/collection-preview.component';
 
 import './collections-overview.styles.scss';
-import CollectionsContext from '../../contexts/collections/collections.context';
 
-const CollectionsOverview = () => {
-  const collections = useContext(CollectionsContext)
-  return (
-    <div className='collections-overview'>
-      {collections.map(({ id, ...otherCollectionProps }) => (
-        <CollectionPreview key={id} {...otherCollectionProps} />
-      ))}
-    </div>
-  )
-};
+const CollectionsOverview = ({ collections }) => (
+  <div className='collections-overview'>
+    {collections.map(({ id, ...otherCollectionProps }) => (
+      <CollectionPreview key={id} {...otherCollectionProps} />
+    ))}
+  </div>
+);
 
 export default CollectionsOverview;
